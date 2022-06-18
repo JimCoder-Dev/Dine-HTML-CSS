@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dine Restaurant - Booking</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="reservations">
+      <div class="container">
+        <img class="mb-5" src="./images/logo.svg" alt="" />
+        <div class="hero-text w-40">
+          <h1>Reservations</h1>
+          <p>
+            We can't wait to host you. If you have any special requirements
+            please feel free to call on the phone number below. We'll be happy
+            to accomodate you.
+          </p>
+        </div>
+      </div>
+    </header>
+    <section class="reservation-section">
+      <div class="container form-styling">
+        <form class="w-50" action="">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <div class="month-time flex">
+            <label for="data">Pick a date</label>
+
+            <input type="text" placeholder="MM" />
+            <input type="text" placeholder="DD" />
+            <input class="year" type="text" placeholder="YYYY" />
+          </div>
+          <div class="month-time flex">
+            <label for="">Pick a time</label>
+            <input type="text" placeholder="09" />
+            <input type="text" placeholder="00" />
+            <select name="" id="">
+              <option value="am">AM</option>
+              <option value="pm">PM</option>
+            </select>
+          </div>
+          <div class="amount flex">
+            <button class="plus-minus">-</button>
+            <label for="">4 people</label>
+            <button class="plus-minus">+</button>
+          </div>
+          <button type="submit" class="btn btn-reverse reservation-btn">
+            MAKE RESERVATION
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

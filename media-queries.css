@@ -1,0 +1,209 @@
+@media screen and (max-width: 976px) {
+  .grid-cols-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .hero-section {
+    height: 62rem;
+    background: url('./images/homepage/hero-bg-tablet@2x.jpg');
+    background-color: var(--primaryBlack);
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16rem;
+  }
+
+  .logo-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .desktop-logo-image {
+    display: none;
+  }
+
+  .mobile-logo-image {
+    display: block;
+  }
+
+  .hero-text {
+    width: 100%;
+    padding: 15.5rem 3rem;
+    text-align: center;
+  }
+
+  .w-60,
+  .w-70,
+  .w-80 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .selection-list {
+    order: -1;
+    margin-top: 3rem;
+  }
+
+  .selection-list li {
+    display: inline-block;
+    margin-right: 1.5rem;
+  }
+
+  .selection-btn {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .locally-sourced-container {
+    order: -1;
+  }
+
+  .ready-to-make-a-reservation div {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ready-to-make-a-reservation div h2 {
+    margin-bottom: 1rem;
+  }
+
+  #enjoyable-place-img {
+    content: url('./images/homepage/enjoyable-place-tablet@2x.jpg');
+  }
+
+  #locally-sourced-img {
+    content: url('./images/homepage/locally-sourced-tablet@2x.jpg');
+    margin-bottom: 0;
+  }
+
+  .menu-highlights {
+    height: 55.6875rem;
+  }
+
+  /* FOOTER */
+  .address-open {
+    flex-direction: column;
+    margin-right: 10rem;
+  }
+  .address {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .ready-to-make-a-reservation {
+    background: url('./images/homepage/ready-bg-tablet@2x.jpg');
+    background-size: contain;
+    height: 16rem;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .container {
+    padding: 0 1.2rem;
+  }
+
+  .-mt-10 {
+    margin-top: -2rem;
+  }
+
+  .hero-section {
+    height: 46.75rem;
+
+    padding-bottom: 3rem;
+
+    background: url('./images/homepage/hero-bg-mobile@2x.jpg');
+    background-position: top;
+    background-size: cover;
+  }
+
+  .hero-text {
+    padding: 0;
+  }
+
+  #enjoyable-place-img {
+    content: url('./images/homepage/enjoyable-place-mobile@2x.jpg');
+  }
+
+  #locally-sourced-img {
+    content: url('./images/homepage/locally-sourced-mobile@2x.jpg');
+  }
+
+  .selection-list li {
+    margin-right: 2rem;
+  }
+
+  .menu-highlights {
+    height: 98.5rem;
+  }
+
+  .highlight-container {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .highlight-container div {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .highlight-banner {
+    width: 100% !important;
+  }
+
+  #salmon-image {
+    content: url('./images/homepage/salmon-mobile@2x.jpg');
+  }
+
+  #beef-image {
+    content: url('./images/homepage/beef-mobile@2x.jpg');
+  }
+
+  #chocolate-image {
+    content: url('./images/homepage/chocolate-mobile@2x.jpg');
+  }
+
+  .ready-to-make-a-reservation {
+    background: url('./images/homepage/ready-bg-mobile@2x.jpg');
+    height: 20.5rem;
+    background-size: contain;
+  }
+
+  .selection-list li {
+    font-size: 12px;
+    margin-right: 0.5rem;
+  }
+
+  .ready-to-make-a-reservation div {
+    text-align: center;
+  }
+
+  .footer {
+    height: 27.5rem;
+  }
+
+  .footer-logo {
+    margin-bottom: 1rem;
+  }
+
+  .footer div {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .address-open {
+    margin: 0;
+    text-align: center;
+  }
+}
